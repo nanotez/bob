@@ -1,11 +1,10 @@
 import requests, fake_useragent, time
 
- user = fake_useragent.UserAgent().random
- headers = {'user_agent': user}
 
 NUMBER = input('Ведите номер')
 
 while True:
+	
  user = fake_useragent.UserAgent().random
  headers = {'user_agent': user}
  
