@@ -1,5 +1,5 @@
 import requests, fake_useragent, time
-
+ headers = {'user_agent': user}
 
 NUMBER = input('Ведите номер')
 
